@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,15 @@
     <title>Tailwind Webpage</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="text-gray-600">
-    <div> <!--Content wrapper-->
-        <div> <!-- navbar section  -->
+
+    <div>
+        <div>
             <nav>
                 <div>
-                    <h1 class="font-bold uppercase">
-                        <a href="/">YumYum Foods</a>
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100">
+                        <a href="/">YumYum Food</a>
                     </h1>
                 </div>
                 <ul>
@@ -36,7 +39,7 @@
             </nav>
         </div>
 
-        <main>
+        <main class="px-16 py-6">
             <div>
                 <a href="#">Log in</a>
                 <a href="#">Sign up</a>
@@ -48,34 +51,32 @@
             </header>
 
             <div>
-                <h4 class="font-bold">Latest Recipes</h4>
+                <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Latest Recipes</h4>
 
-                <div>
-                    <!-- Card go here  -->
+                <div class="mt-8">
+                    <!-- cards go here -->
                     <div>
-                        <img src="" alt="">
-                        <div> 
-                            <img src="img/stew.jpg" alt="stew">
-                            <div>
-                                <span>5 Bean Chili Stew</span>
-                                <span>Recipe by Mario</span>
-                            </div>
+                        <img src="img/stew.jpg" alt="stew">
+                        <div>
+                            <span>5 Bean Chili Stew</span>
+                            <span>Recipe by Mario</span>
                         </div>
                     </div>
                 </div>
 
-                <h4 class="font-bold">Most Popular</h4>
+                <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Most Popular</h4>
 
-                <div>
+                <div class="mt-8">
                     <!-- cards go here -->
-                 </div>
-
+                </div>
             </div>
 
-            <div>
+            <div class="mt-12">
                 <div>Load more</div>
             </div>
         </main>
     </div>
+
 </body>
+
 </html>
